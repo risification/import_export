@@ -1,0 +1,5 @@
+full_title|id|title           |text   |user
+----------|--|----------------|-------|----
+          |1 |sdfsdfsd        |sdfsdf |2   
+          |2 |НОВОСТИ ОДВОЫДЛО|dfsfsdf|2   
+          |3 |cho tosda       |dsfsf  |2   
