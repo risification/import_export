@@ -3,7 +3,6 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import *
 from .admin import DocumentResources
-import tablib
 from rest_framework import viewsets
 
 

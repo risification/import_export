@@ -45,7 +45,7 @@ class DocumentResources(resources.ModelResource):
 
 
 class DocumentAdmin(ImportExportActionModelAdmin):
-    list_display = ['title', 'text', 'date', 'user', 'target']
+    list_display = ['title', 'text', 'date', 'user', 'target', 'date_expired']
 
 
 admin.site.register(Document, DocumentAdmin)

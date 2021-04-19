@@ -21,5 +21,5 @@ class Command(BaseCommand):
         for row in DictReader(open('media/file.csv')):
             document = Document(title=row['Title'], text=row['Text'],
                                 date=row['Date'],
-                                target=row['Target'])
+                                target=row['Target'],date_expired=row['date_expired'])
             document.save()

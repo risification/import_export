@@ -11,7 +11,7 @@ class Document(models.Model):
     date = models.DateField(auto_now_add=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE, blank=True, null=True)
     target = models.CharField(max_length=40)
-    # date_expired = models.DateField()
+    date_expired = models.DateField(blank=True, null=True)
 
 
 '''class CsvDocument(CsvModel):
