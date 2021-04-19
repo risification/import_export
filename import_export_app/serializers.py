@@ -18,7 +18,7 @@ class DownloadSerializers(serializers.ModelSerializer):
     def create(self, validated_data):
         file_data = validated_data.pop('file_field')
         document = Document.objects.create(**validated_data)
-        for file in file_data:
-            document(document=document, **file)
-            document.save()
+        pass
         return file_data
+
+
